@@ -1,0 +1,159 @@
+.oculta{
+display: none;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+    min-height: 100vh;
+}
+.hello{
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px #00d4ff;
+    width: 80%;
+    margin: 40px;
+    align-self: center;
+}
+#goalsContainer > div.hello.row > img, #plannerContainer > div.hello.row > img{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 55%;
+    bottom: 57%;
+}
+h2{
+    color:#00d4ff;
+    font-weight: bolder;
+    margin: 20px;
+    font-size: 3em;
+}
+h3{
+    color:#00d4ff;
+    font-weight: bolder;
+    margin: 20px;
+}
+#board > h3, #plannerBoard > h3{
+    text-align: center;
+}
+.container-button{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+#saveGoal, #saveTask, #button-collapse, #deleteVisionBoard, #buttonDelete{
+    background: #00d4ff;
+    width: 20%;
+    font-weight: 800;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2)
+}
+#button-collapse{
+    width: 65%;
+    justify-content: end;
+    font-size: 0.9em;
+}
+.label-category{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    margin: 10px 40px 25px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px  rgba(0, 0, 0, 0.2);
+}
+.label-category:hover{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(77,209,200,0.4545454545454546) 92%);
+}
+input.categoria, input.categoriaT {display:none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2)}
+    
+    
+    input:checked + label {
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(77,209,200,0.4545454545454546) 92%);
+    }
+    .label-category img{
+        width: 90px;
+    }
+    div .container-inputs{
+        justify-content: center;
+    }
+    #valueVision,
+    #start, #imgVision, #valueTask{
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #ccc; /* Línea inferior */
+        background: transparent; /* Fondo transparente */
+        outline: none; /* Elimina el resaltado de enfoque */
+        padding: 8px 0; /* Espaciado interior superior e inferior */
+        color: #333; /* Color del texto */
+        margin-bottom: 40px;
+        padding: 10px;
+    }
+    #goalsForm{
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(77,209,200,0.4545454545454546) 92%);
+        border-radius: 10px;
+        height: 150px;
+        justify-content: center;
+        align-items: end;
+        margin-bottom: 30px;
+    }
+    #goalsContainer > div:nth-child(1) > p{
+        justify-content: end;
+    }
+
+    #plannerBoard, #board{
+        padding: 40px;
+        margin: 20px;
+    }
+
+    .boxPlanner{
+        margin: 40px;
+    }
+
+    #box-crecimientoPersonalT .card-header{
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,133,103,1) 98%);
+
+
+    }
+    #box-crecimientoPersonalT .card-body {
+background-color: #f2d6c0 ;
+display: flex;
+justify-content: space-between;
+    }
+
+    #box-economiaT .card-header{
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(135,255,173,1) 98%);
+      
+    }
+    #box-economiaT .card-body{
+background-color: #d9ffe5;
+display: flex;
+justify-content: space-between;
+    }
+    #box-laboralT .card-header{
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(233,242,117,1) 98%);
+    
+    }
+    #box-laboralT .card-body{
+        background-color:#f0f4be ;
+        display: flex;
+justify-content: space-between;
+    }
+
+    #box-socialT .card-header{
+        background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(226,101,206,1) 98%);
+/* #ecd3e8*/
+    }
+    #box-socialT .card-body{
+        background-color:#ecd3e8 ;
+        display: flex;
+justify-content: space-between;
+    }
